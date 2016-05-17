@@ -1,0 +1,135 @@
+/* GENERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+header {
+    border-top: 10px solid #2ecc71;
+    background: url("images/banner.jpg") no-repeat;
+    height: 600px;
+}
+
+    header .header-content {
+        margin-left: 115px;
+        margin-top: 165px;
+        color: #fff;
+        width: 41.25%;
+    }
+
+    header .logo {
+        margin-bottom: 35px;
+    }
+
+    header p {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    header .app-links a {
+        display: inline-block;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 50%;
+        width: 53px;
+        height: 53px;
+        line-height: 53px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        padding-top: 5px;
+        margin-right: 10px;
+    }
+
+    header .app-links a:hover {
+        background-color: #2ecc71;
+    }
+
+
+.features {
+    padding: 60px 0 44px;
+    margin-left: 5px;
+}
+
+    .features .feature-item {
+        text-align: center;
+        display: inline-block;
+        width: 27.1186%; /* = 320px / 1180px*/
+        margin-left: -5px;
+        margin-right: 8.4745%;
+    }
+
+    .features .feature-item:last-child { margin-right: 0; }
+
+    .features .feature-icon {
+        display: inline-block;
+        width: 99px;
+        height: 99px;
+        background-color: #2ecc71;
+        border-radius: 50%;
+        padding-top: 25px;
+    }
+
+    .features h2 {
+        color: #222;
+        font-family: "Raleway SemiBold", Arial, sans-serif;
+        font-size: 22px;
+        line-height: 18px;
+        margin: 18px 0 30px;
+    }
+
+    .features p {
+        color: #848484;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0;
+    }
+
+
+.contact {
+    margin-left: 5px;
+    background-color: #e3e3e3;
+    padding: 60px 0;
+}
+
+    .contact .contact-item {
+        display: inline-block;
+        width: 45.7627%;
+        margin-left: -5px;
+        vertical-align: top;
+    }
+
+    .contact .contact-item:first-child {
+        margin-right: 8.4745%;
+    }
+
+    .contact .contact-item.right {
+        text-align: right;
+    }
+
+    .contact .contact-item iframe {
+        border-radius: 7px;
+    }
+
+    .contact h1 {
+        color: #222;
+        font-family: "Raleway SemiBold", Arial, sans-serif;
+        font-size: 22px;
+        line-height: 18px;
+        margin: 0 0 30px;
+    }
+
+    .contact p {
+        color: #848484;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0;
+    }
